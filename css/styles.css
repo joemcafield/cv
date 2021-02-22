@@ -4,6 +4,10 @@ body {
   margin-bottom: 0;
 }
 
+.strong {
+  text-decoration: underline;
+}
+
 .top-container {
   background-color: #a6e3e9;
   padding-top: 60px;
