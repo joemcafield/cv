@@ -1,9 +1,9 @@
 body {
   color: #40514E;
   text-align: center;
-  margin: 0;
+  margin: auto;
   margin-bottom: 0;
-  text-size-adjust: 200%;
+  font-size-adjust: 200%;
 }
 
 html {
@@ -75,7 +75,7 @@ a:hover {
 
 .bottom-container {
   background-color: #EDFDFD;
-  margin: 0;
+  margin: 0 auto 0 auto;
   padding-top: 50px;
   padding-bottom: 5px;
 }
@@ -114,8 +114,15 @@ a:hover {
 }
 
 .intro {
-  width: 60%;
+  width: 80%;
   margin: auto;
+}
+
+.intro-body {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .profile-img {
@@ -147,6 +154,7 @@ a:hover {
   float: left;
   width: 25%;
   margin-right: 30px;
+  padding: 20px;
   border-radius: 50%
 }
 
